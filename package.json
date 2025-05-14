@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "build": "tsc",
+    "build": "npm i && tsc",
     "build:css": " npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/styles.css --watch"
   },
   "keywords": [],
